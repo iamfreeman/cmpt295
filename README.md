@@ -1,5 +1,5 @@
 Project Synopsis
-Using a BeagleBone Black we send messages, over bluetooth, to a NXT Mindstorm brick. The NXT robot maps a room by measuring distances, by using a NXT IR proximity sensor, and then displaying the mapped information to a website using node.js. Other functionality includes manually controlling the NXT robot using the website interface, manually controlling the robot using the zencape joystick, and increasing/decreasing it’s movement speed using the potentiometer.
+Using a BeagleBone Black we send messages, over bluetooth, to a NXT Mindstorm brick. The NXT robot maps a room by measuring distances with a NXT IR proximity sensor. Mapped information is displayed on a website with node.js server. Other functionality includes manually controlling the NXT robot using the website interface, manually controlling the robot using the zencape joystick, and increasing/decreasing it’s movement speed using the potentiometer.
 
 Instructions to Run
 On your host machine run make to compile the project
